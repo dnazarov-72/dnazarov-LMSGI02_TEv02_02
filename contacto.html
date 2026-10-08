@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<!-- connectar mi estilos css -->
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<!-- titulo de pagina contacto -->
+    <title>Contacto - F1 Madrid</title>
+</head>
+<body>
+	
+	<!-- cabecera con menu -->
+    <header>
+        <h1>Gran Premio de España - Madrid</h1>
+		<!-- menu de navegacion -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="carrera.html">Carrera</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<!-- aqui la formulario de contacto -->
+    <main>
+        <h3>Formulario de Contacto</h3>
+        <p>¿Tiene dudas sobre el evento? Envíanme mensaje.</p>
+
+        <!-- formulario para mandar mail -->
+        <form action="mailto:bilbaocurso@gmail.com" method="post" enctype="text/plain">
+            <p>
+                <label for="nombre">Nombre y Apellidos:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+            <p>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea>
+            </p>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </p>
+        </form>
+		</main>
+
+		<!-- pie de pagina -->
+		<footer><p>&copy; 2026 - Denis Nazarov dnazarov| LMSGI - Proyecto Fórmula 1</p></footer>
+
+		</body>
+</html>
